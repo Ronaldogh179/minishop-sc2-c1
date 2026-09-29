@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniShop — Carrito de compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>MiniShop 🛒</h1>
+        <p>Tu tienda en línea con Vanilla JavaScript</p>
+    </header>
+
+    <main class="container">
+        <!-- Catálogo -->
+        <section class="catalog-section">
+            <h2>Catálogo de Productos</h2>
+            <div id="catalog-container" class="grid-catalog"></div>
+        </section>
+
+        <!-- Carrito -->
+        <section class="cart-section">
+            <h2>Tu Carrito</h2>
+            <div id="cart-container" class="cart-items"></div>
+            <div id="empty-message" class="empty-state">
+                <p>El carrito está vacío. ¡Agrega algunos productos!</p>
+            </div>
+            <div class="cart-summary">
+                <div class="total-row">
+                    <span>Total General:</span>
+                    <span id="total-price">S/ 0.00</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

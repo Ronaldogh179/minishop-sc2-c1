@@ -1,0 +1,9 @@
+# Configuraciones del editor
+.vscode/
+
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
