@@ -20,7 +20,7 @@ MiniShop permite a los usuarios seleccionar productos de un catálogo dinámico 
 - **Prevención XSS:** Mitigación de riesgos de inyección al evitar el uso de `innerHTML` para la creación de componentes interactivos.
 
 ## 👥 Equipo de Desarrollo
-- **Simon Ronaldo Gonzales Jacinto** (Líder / Desarrollador)
+- **Simon Ronaldo Gonzales Jacinto**
 - **Salomon Gabriel David Clemente**
 - **Diego Alberto Paitan Chavez**
 
